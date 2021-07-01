@@ -5,11 +5,16 @@
   color:deeppink;
   text-shadow: -1px 1px 0 #000,
   1px 1px 0 #000,
- 1px -1px 0 #000,
--1px -1px 0 #000;
-
+  1px -1px 0 #000,
+  -1px -1px 0 #000;
 }
-
+.bodydiv {
+  display:flex;
+  flex-direction:row;
+  flex-wrap: none;
+  justify-content: space-between;
+  
+}
 .maintextinput {
   border: 5px outset #A40F84;
   background-color: rgba(139, 189, 3, 0.37);
@@ -19,10 +24,18 @@
  1px -1px 0 #000,
 -1px -1px 0 #000;
 }
-.card-body {
+.card1 {
   width: 350px;
-  border: 5px outset #A40F84;
+  border: 5px double #A40F84;
   background-color: aquamarine;
+}
+.card2 {
+
+  width: 350px;
+  height: 1000px;
+  border: 5px double #A40F84;
+  background-color: aquamarine;
+ 
 }
 
 ::placeholder {
