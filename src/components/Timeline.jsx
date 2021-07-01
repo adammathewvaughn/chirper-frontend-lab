@@ -1,13 +1,13 @@
 import React from "react";
 
-const Timeline = (props) => {
+const Timeline = ({chirp}) => {
   return (
     <>
-    <div className="bodydiv">
+    <div className="tl-div">
       <div className="card2">
         <div className="card-body display-flex-end">
           <h1 className="card-title">Recent Chirps!
-                 {props.chirps.username} {props.chirps.message}
+                 {chirp.username} {chirp.message}
           </h1>
         </div>
       </div>

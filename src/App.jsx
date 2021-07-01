@@ -59,10 +59,9 @@ const App = () => {
           </div>
         </div>
       </div>
-    {chirps.map(chirps)=>{ //?
-       {//? ??} 
-    }} 
-      <Timeline chirps={chirps} />
+      <div className="col">
+    {chirps.map((chirp, id)=><Timeline chirp={chirp} />)} 
+      </div>
     </>
   );
 };

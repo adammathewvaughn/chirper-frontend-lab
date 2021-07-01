@@ -1,3 +1,8 @@
+#root {
+  display: flex;
+  flex-direction: row;
+}
+
 .username {
   border: 5px outset #A40F84;
   border-bottom: none;
@@ -13,7 +18,6 @@
   flex-direction:row;
   flex-wrap: none;
   justify-content: space-between;
-  
 }
 .maintextinput {
   border: 5px outset #A40F84;
@@ -32,7 +36,7 @@
 .card2 {
 
   width: 350px;
-  height: 1000px;
+  height: 300px;
   border: 5px double #A40F84;
   background-color: aquamarine;
  
